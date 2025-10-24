@@ -12,7 +12,7 @@ const PLAYER_SIZE = 40;
 const BULLET_SIZE = 10;
 const BULLET_SPEED = 8;
 const PLAYER_SPEED = 5;
-const MAX_HEALTH = 5;
+const MAX_HEALTH = 10;
 const RESPAWN_TIME = 3000; // 3 seconds
 
 export default function Game({ onGameOver }) {

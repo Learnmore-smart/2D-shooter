@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./styles/StartScreen.module.css":
+/*!***************************************!*\
+  !*** ./styles/StartScreen.module.css ***!
+  \***************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"startScreen\":\"StartScreen_startScreen__f6BSE\",\"gameTitle\":\"StartScreen_gameTitle__i2hUH\",\"subtitle\":\"StartScreen_subtitle__KAkXL\",\"controlsContainer\":\"StartScreen_controlsContainer__95u96\",\"playerControls\":\"StartScreen_playerControls__KGvxO\",\"player1Title\":\"StartScreen_player1Title__d3sXS\",\"player2Title\":\"StartScreen_player2Title___ZbzY\",\"controlGroup\":\"StartScreen_controlGroup__AdKt1\",\"controlItem\":\"StartScreen_controlItem__IXJ_m\",\"controlKey\":\"StartScreen_controlKey__potAJ\",\"gameInfo\":\"StartScreen_gameInfo__GP69H\",\"previousScore\":\"StartScreen_previousScore__IOZLP\",\"startButton\":\"StartScreen_startButton__PvaaY\"};\n    if(true) {\n      // 1761275135621\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"1aab19fdb6c4\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3N0eWxlcy9TdGFydFNjcmVlbi5tb2R1bGUuY3NzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0Esa0JBQWtCO0FBQ2xCLE9BQU8sSUFBVTtBQUNqQjtBQUNBLHNCQUFzQixtQkFBTyxDQUFDLHdNQUFrSCxjQUFjLHNEQUFzRDtBQUNwTixNQUFNLFVBQVU7QUFDaEI7QUFDQTtBQUNBO0FBQ0EseUJBQXlCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8uL3N0eWxlcy9TdGFydFNjcmVlbi5tb2R1bGUuY3NzPzcyNTUiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5tb2R1bGUuZXhwb3J0cyA9IHtcInN0YXJ0U2NyZWVuXCI6XCJTdGFydFNjcmVlbl9zdGFydFNjcmVlbl9fZjZCU0VcIixcImdhbWVUaXRsZVwiOlwiU3RhcnRTY3JlZW5fZ2FtZVRpdGxlX19pMmhVSFwiLFwic3VidGl0bGVcIjpcIlN0YXJ0U2NyZWVuX3N1YnRpdGxlX19LQWtYTFwiLFwiY29udHJvbHNDb250YWluZXJcIjpcIlN0YXJ0U2NyZWVuX2NvbnRyb2xzQ29udGFpbmVyX185NXU5NlwiLFwicGxheWVyQ29udHJvbHNcIjpcIlN0YXJ0U2NyZWVuX3BsYXllckNvbnRyb2xzX19LR3Z4T1wiLFwicGxheWVyMVRpdGxlXCI6XCJTdGFydFNjcmVlbl9wbGF5ZXIxVGl0bGVfX2Qzc1hTXCIsXCJwbGF5ZXIyVGl0bGVcIjpcIlN0YXJ0U2NyZWVuX3BsYXllcjJUaXRsZV9fX1piellcIixcImNvbnRyb2xHcm91cFwiOlwiU3RhcnRTY3JlZW5fY29udHJvbEdyb3VwX19BZEt0MVwiLFwiY29udHJvbEl0ZW1cIjpcIlN0YXJ0U2NyZWVuX2NvbnRyb2xJdGVtX19JWEpfbVwiLFwiY29udHJvbEtleVwiOlwiU3RhcnRTY3JlZW5fY29udHJvbEtleV9fcG90QUpcIixcImdhbWVJbmZvXCI6XCJTdGFydFNjcmVlbl9nYW1lSW5mb19fR1A2OUhcIixcInByZXZpb3VzU2NvcmVcIjpcIlN0YXJ0U2NyZWVuX3ByZXZpb3VzU2NvcmVfX0lPWkxQXCIsXCJzdGFydEJ1dHRvblwiOlwiU3RhcnRTY3JlZW5fc3RhcnRCdXR0b25fX1B2YWFZXCJ9O1xuICAgIGlmKG1vZHVsZS5ob3QpIHtcbiAgICAgIC8vIDE3NjEyNzUxMzU2MjFcbiAgICAgIHZhciBjc3NSZWxvYWQgPSByZXF1aXJlKFwiRDovTm9haC/mlofmoaMvQ29kaW5nLzJELXNob290ZXIvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jb21waWxlZC9taW5pLWNzcy1leHRyYWN0LXBsdWdpbi9obXIvaG90TW9kdWxlUmVwbGFjZW1lbnQuanNcIikobW9kdWxlLmlkLCB7XCJwdWJsaWNQYXRoXCI6XCIvX25leHQvXCIsXCJlc01vZHVsZVwiOmZhbHNlLFwibG9jYWxzXCI6dHJ1ZX0pO1xuICAgICAgbW9kdWxlLmhvdC5kaXNwb3NlKGNzc1JlbG9hZCk7XG4gICAgICBcbiAgICB9XG4gIFxubW9kdWxlLmV4cG9ydHMuX19jaGVja3N1bSA9IFwiMWFhYjE5ZmRiNmM0XCJcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./styles/StartScreen.module.css\n"));
+
+/***/ })
+
+});

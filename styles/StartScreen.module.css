@@ -5,8 +5,8 @@
   align-items: center;
   height: 100%;
   padding: 20px;
-  background-color: #0f0f1e;
-  color: white;
+  background-color: #0a3d0a; /* 深绿色背景 */
+  color: #8BC34A; /* 浅绿色文字 */
   text-align: center;
 }
 
@@ -17,8 +17,8 @@
 .gameTitle h1 {
   font-size: 3rem;
   margin-bottom: 10px;
-  color: #ffcc00;
-  text-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
+  color: #4CAF50; /* 亮绿色标题 */
+  text-shadow: 0 0 20px rgba(76, 175, 80, 0.7); /* 绿色发光效果 */
   letter-spacing: 2px;
 }
 
@@ -39,7 +39,7 @@
 
 .playerControls {
   flex: 1;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(16, 36, 16, 0.7); /* 半透明绿色背景 */
   border-radius: 10px;
   padding: 20px;
   border: 2px solid;
@@ -85,12 +85,12 @@
   align-items: center;
   min-width: 40px;
   height: 30px;
-  background-color: #333;
-  border: 1px solid #555;
+  background-color: #1B5E20; /* 深绿色按键背景 */
+  border: 1px solid #4CAF50; /* 亮绿色边框 */
   border-radius: 4px;
   font-weight: bold;
   padding: 0 8px;
-  color: #ffcc00;
+  color: #8BC34A; /* 浅绿色按键文字 */
 }
 
 .gameInfo {
@@ -111,7 +111,7 @@
 
 .previousScore h3 {
   margin-bottom: 15px;
-  color: #ffcc00;
+  color: #4CAF50; /* 亮绿色标题 */
   font-size: 1.2rem;
 }
 
@@ -119,21 +119,21 @@
   padding: 15px 40px;
   font-size: 1.2rem;
   font-weight: bold;
-  background-color: #ffcc00;
-  color: #111;
+  background-color: #4CAF50; /* 亮绿色按钮 */
+  color: #0a3d0a; /* 深绿色文字 */
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: 'Press Start 2P', cursive;
   letter-spacing: 1px;
-  box-shadow: 0 4px 0 #cc9900;
+  box-shadow: 0 4px 0 #2E7D32; /* 更深的绿色阴影 */
 }
 
 .startButton:hover {
-  background-color: #ffd633;
+  background-color: #66BB6A; /* 浅一点的绿色 */
   transform: translateY(2px);
-  box-shadow: 0 2px 0 #cc9900;
+  box-shadow: 0 2px 0 #2E7D32; /* 更深的绿色阴影 */
 }
 
 .startButton:active {

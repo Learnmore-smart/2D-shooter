@@ -37,15 +37,15 @@
 }
 
 .up .playerGun {
-  top: -5px;
+  top: -10px;
   left: 50%;
-  transform: translateX(-50%) rotate(0deg);
+  transform: translateX(-50%) rotate(90deg);
 }
 
 .down .playerGun {
-  bottom: -5px;
+  bottom: -10px;
   left: 50%;
-  transform: translateX(-50%) rotate(0deg);
+  transform: translateX(-50%) rotate(90deg);
 }
 
 .left .playerGun {

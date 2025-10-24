@@ -7,7 +7,7 @@ import GameOver from '../components/GameOver';
 import styles from '../styles/Game.module.css';
 
 export default function Home() {
-  const [gameState, setGameState] = useState('start'); // 'start', 'playing', 'paused', 'gameOver'
+  const [gameState, setGameState] = useState('start'); // 'start', 'playing', 'gameOver'
   const [winner, setWinner] = useState(null);
   const [scores, setScores] = useState({ player1: 0, player2: 0 });
   
@@ -31,18 +31,14 @@ export default function Home() {
     setWinner(null);
   };
   
-  const handlePause = () => {
-    if (gameState === 'playing') {
-      setGameState('paused');
-    } else if (gameState === 'paused') {
-      setGameState('playing');
-    }
+  const handleExit = () => {
+    setGameState('start');
   };
   
   useEffect(() => {
     const handleKeyPress = (e) => {
-      if (e.key === 'Escape') {
-        handlePause();
+      if (e.key === 'Escape' && gameState === 'playing') {
+        handleExit();
       }
     };
     
@@ -59,13 +55,6 @@ export default function Home() {
         
         {gameState === 'playing' && (
           <Game onGameOver={handleGameOver} />
-        )}
-        
-        {gameState === 'paused' && (
-          <div className={styles.pauseScreen}>
-            <h2>PAUSED</h2>
-            <p>Press ESC to resume</p>
-          </div>
         )}
         
         {gameState === 'gameOver' && (
