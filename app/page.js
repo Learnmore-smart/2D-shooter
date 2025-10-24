@@ -19,11 +19,6 @@ export default function Home() {
   const handleGameOver = (winner) => {
     setWinner(winner);
     setGameState('gameOver');
-    if (winner === 'player1') {
-      setScores(prev => ({ ...prev, player1: prev.player1 + 1 }));
-    } else {
-      setScores(prev => ({ ...prev, player2: prev.player2 + 1 }));
-    }
   };
   
   const handleRestart = () => {

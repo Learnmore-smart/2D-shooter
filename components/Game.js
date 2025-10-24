@@ -12,7 +12,7 @@ const PLAYER_SIZE = 40;
 const BULLET_SIZE = 10;
 const BULLET_SPEED = 8;
 const PLAYER_SPEED = 5;
-const MAX_HEALTH = 10;
+const MAX_HEALTH = 40;
 const RESPAWN_TIME = 3000; // 3 seconds
 
 export default function Game({ onGameOver }) {
@@ -434,9 +434,9 @@ export default function Game({ onGameOver }) {
   
   // Check for game over
   useEffect(() => {
-    if (scores.player1 >= 10) {
+    if (scores.player1 >= 40) {
       onGameOver('player1');
-    } else if (scores.player2 >= 10) {
+    } else if (scores.player2 >= 40) {
       onGameOver('player2');
     }
   }, [scores, onGameOver]);
@@ -444,10 +444,10 @@ export default function Game({ onGameOver }) {
   return (
     <div className={styles.gameCanvas} ref={gameAreaRef}>
       <div className={`${styles.scoreDisplay} ${styles.player1Score}`}>
-        P1: {scores.player1}
+        玩家1: {scores.player1}
       </div>
       <div className={`${styles.scoreDisplay} ${styles.player2Score}`}>
-        P2: {scores.player2}
+        玩家2: {scores.player2}
       </div>
       
       {player1.isAlive && (

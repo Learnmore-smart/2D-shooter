@@ -5,78 +5,78 @@ export default function StartScreen({ onStart, scores }) {
   return (
     <div className={styles.startScreen}>
       <div className={styles.gameTitle}>
-        <h1>2D SHOOTER</h1>
-        <div className={styles.subtitle}>Local Multiplayer Battle</div>
+        <h1>2D 射击游戏</h1>
+        <div className={styles.subtitle}>本地多人对战</div>
       </div>
-      
+
       <div className={styles.controlsContainer}>
         <div className={styles.playerControls}>
-          <h2 className={styles.player1Title}>PLAYER 1 (BLUE)</h2>
+          <h2 className={styles.player1Title}>玩家1 (蓝色)</h2>
           <div className={styles.controlGroup}>
             <div className={styles.controlItem}>
               <span className={styles.controlKey}>W</span>
-              <span>Move Up</span>
+              <span>向上移动</span>
             </div>
             <div className={styles.controlItem}>
               <span className={styles.controlKey}>A</span>
-              <span>Move Left</span>
+              <span>向左移动</span>
             </div>
             <div className={styles.controlItem}>
               <span className={styles.controlKey}>S</span>
-              <span>Move Down</span>
+              <span>向下移动</span>
             </div>
             <div className={styles.controlItem}>
               <span className={styles.controlKey}>D</span>
-              <span>Move Right</span>
+              <span>向右移动</span>
             </div>
             <div className={styles.controlItem}>
               <span className={styles.controlKey}>C</span>
-              <span>Shoot</span>
+              <span>射击</span>
             </div>
           </div>
         </div>
-        
+
         <div className={styles.playerControls}>
-          <h2 className={styles.player2Title}>PLAYER 2 (RED)</h2>
+          <h2 className={styles.player2Title}>玩家2 (红色)</h2>
           <div className={styles.controlGroup}>
             <div className={styles.controlItem}>
               <span className={styles.controlKey}>↑</span>
-              <span>Move Up</span>
+              <span>向上移动</span>
             </div>
             <div className={styles.controlItem}>
               <span className={styles.controlKey}>←</span>
-              <span>Move Left</span>
+              <span>向左移动</span>
             </div>
             <div className={styles.controlItem}>
               <span className={styles.controlKey}>↓</span>
-              <span>Move Down</span>
+              <span>向下移动</span>
             </div>
             <div className={styles.controlItem}>
               <span className={styles.controlKey}>→</span>
-              <span>Move Right</span>
+              <span>向右移动</span>
             </div>
             <div className={styles.controlItem}>
-              <span className={styles.controlKey}>SPACE</span>
-              <span>Shoot</span>
+              <span className={styles.controlKey}>空格</span>
+              <span>射击</span>
             </div>
           </div>
         </div>
       </div>
-      
+
       <div className={styles.gameInfo}>
-        <p>First to 10 points wins!</p>
-        <p>Press ESC to pause during game</p>
+        <p>先得40分获胜！</p>
+        <p>按ESC键退出游戏</p>
       </div>
-      
+
       {scores && (scores.player1 > 0 || scores.player2 > 0) && (
         <div className={styles.previousScore}>
-          <h3>Previous Match</h3>
+          <h3>上一场比赛</h3>
           <ScoreBoard player1Score={scores.player1} player2Score={scores.player2} />
         </div>
       )}
-      
+
       <button className={styles.startButton} onClick={onStart}>
-        START GAME
+        开始游戏
       </button>
     </div>
   );

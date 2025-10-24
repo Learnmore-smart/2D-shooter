@@ -33,10 +33,13 @@
 
 .Player_playerGun__kY6lU {
   position: absolute;
-  width: 15px;
-  height: 5px;
-  background-color: #333;
-  border-radius: 2px;
+  width: 20px;
+  height: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
 }
 
 .Player_up__RGdTx .Player_playerGun__kY6lU {
@@ -52,13 +55,13 @@
 }
 
 .Player_left__XNpEb .Player_playerGun__kY6lU {
-  left: -5px;
+  left: -10px;
   top: 50%;
   transform: translateY(-50%) rotate(0deg);
 }
 
 .Player_right__ML2wc .Player_playerGun__kY6lU {
-  right: -5px;
+  right: -10px;
   top: 50%;
   transform: translateY(-50%) rotate(0deg);
 }
@@ -248,6 +251,22 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+.Game_gameCanvas__OwY0v::before {
+  content: "1024";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .Game_scoreDisplay__x_wGe {
