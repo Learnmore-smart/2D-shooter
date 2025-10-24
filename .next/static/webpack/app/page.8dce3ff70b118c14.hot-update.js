@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/page",{
+
+/***/ "(app-pages-browser)/./styles/Player.module.css":
+/*!**********************************!*\
+  !*** ./styles/Player.module.css ***!
+  \**********************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"player\":\"Player_player__Lp72A\",\"playerBody\":\"Player_playerBody__6qTID\",\"player1\":\"Player_player1__X_0KA\",\"player2\":\"Player_player2__ibS_9\",\"playerGun\":\"Player_playerGun__kY6lU\",\"up\":\"Player_up__RGdTx\",\"down\":\"Player_down__ziycE\",\"left\":\"Player_left__XNpEb\",\"right\":\"Player_right__ML2wc\",\"upLeft\":\"Player_upLeft__KTdfV\",\"upRight\":\"Player_upRight__Pya1C\",\"downLeft\":\"Player_downLeft__EgfZ3\",\"downRight\":\"Player_downRight__yYsvR\",\"healthBar\":\"Player_healthBar__pOGyb\",\"healthBarFill\":\"Player_healthBarFill__iBLaZ\",\"player1Health\":\"Player_player1Health__g0PYu\",\"player2Health\":\"Player_player2Health__AtIC_\"};\n    if(true) {\n      // 1761274915333\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"2011986fc2ef\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL3N0eWxlcy9QbGF5ZXIubW9kdWxlLmNzcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBLGtCQUFrQjtBQUNsQixPQUFPLElBQVU7QUFDakI7QUFDQSxzQkFBc0IsbUJBQU8sQ0FBQyx3TUFBa0gsY0FBYyxzREFBc0Q7QUFDcE4sTUFBTSxVQUFVO0FBQ2hCO0FBQ0E7QUFDQTtBQUNBLHlCQUF5QiIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvLi9zdHlsZXMvUGxheWVyLm1vZHVsZS5jc3M/MDRmOCJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbm1vZHVsZS5leHBvcnRzID0ge1wicGxheWVyXCI6XCJQbGF5ZXJfcGxheWVyX19McDcyQVwiLFwicGxheWVyQm9keVwiOlwiUGxheWVyX3BsYXllckJvZHlfXzZxVElEXCIsXCJwbGF5ZXIxXCI6XCJQbGF5ZXJfcGxheWVyMV9fWF8wS0FcIixcInBsYXllcjJcIjpcIlBsYXllcl9wbGF5ZXIyX19pYlNfOVwiLFwicGxheWVyR3VuXCI6XCJQbGF5ZXJfcGxheWVyR3VuX19rWTZsVVwiLFwidXBcIjpcIlBsYXllcl91cF9fUkdkVHhcIixcImRvd25cIjpcIlBsYXllcl9kb3duX196aXljRVwiLFwibGVmdFwiOlwiUGxheWVyX2xlZnRfX1hOcEViXCIsXCJyaWdodFwiOlwiUGxheWVyX3JpZ2h0X19NTDJ3Y1wiLFwidXBMZWZ0XCI6XCJQbGF5ZXJfdXBMZWZ0X19LVGRmVlwiLFwidXBSaWdodFwiOlwiUGxheWVyX3VwUmlnaHRfX1B5YTFDXCIsXCJkb3duTGVmdFwiOlwiUGxheWVyX2Rvd25MZWZ0X19FZ2ZaM1wiLFwiZG93blJpZ2h0XCI6XCJQbGF5ZXJfZG93blJpZ2h0X195WXN2UlwiLFwiaGVhbHRoQmFyXCI6XCJQbGF5ZXJfaGVhbHRoQmFyX19wT0d5YlwiLFwiaGVhbHRoQmFyRmlsbFwiOlwiUGxheWVyX2hlYWx0aEJhckZpbGxfX2lCTGFaXCIsXCJwbGF5ZXIxSGVhbHRoXCI6XCJQbGF5ZXJfcGxheWVyMUhlYWx0aF9fZzBQWXVcIixcInBsYXllcjJIZWFsdGhcIjpcIlBsYXllcl9wbGF5ZXIySGVhbHRoX19BdElDX1wifTtcbiAgICBpZihtb2R1bGUuaG90KSB7XG4gICAgICAvLyAxNzYxMjc0OTE1MzMzXG4gICAgICB2YXIgY3NzUmVsb2FkID0gcmVxdWlyZShcIkQ6L05vYWgv5paH5qGjL0NvZGluZy8yRC1zaG9vdGVyL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY29tcGlsZWQvbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4vaG1yL2hvdE1vZHVsZVJlcGxhY2VtZW50LmpzXCIpKG1vZHVsZS5pZCwge1wicHVibGljUGF0aFwiOlwiL19uZXh0L1wiLFwiZXNNb2R1bGVcIjpmYWxzZSxcImxvY2Fsc1wiOnRydWV9KTtcbiAgICAgIG1vZHVsZS5ob3QuZGlzcG9zZShjc3NSZWxvYWQpO1xuICAgICAgXG4gICAgfVxuICBcbm1vZHVsZS5leHBvcnRzLl9fY2hlY2tzdW0gPSBcIjIwMTE5ODZmYzJlZlwiXG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./styles/Player.module.css\n"));
+
+/***/ })
+
+});

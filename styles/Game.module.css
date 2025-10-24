@@ -1,0 +1,100 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a3d0a;
+  position: relative;
+}
+
+.gameArea {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  max-width: 1200px;
+  max-height: 800px;
+  background-color: #102410; /* 中等绿色游戏区域 */
+  border: 3px solid #4CAF50; /* 亮绿色边框 */
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.5); /* 绿色发光效果 */
+}
+
+.pauseScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(16, 36, 16, 0.9); /* 半透明绿色背景 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #4CAF50; /* 亮绿色文字 */
+  font-size: 24px;
+  z-index: 10;
+}
+
+.pauseScreen h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #ffcc00;
+}
+
+.pauseScreen p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.gameCanvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.scoreDisplay {
+  position: absolute;
+  top: 20px;
+  font-size: 1.2rem;
+  color: #8BC34A; /* 浅绿色分数 */
+  text-shadow: 0 0 5px rgba(139, 195, 74, 0.7); /* 绿色发光文字效果 */
+  z-index: 10;
+}
+
+.player1Score {
+  left: 20px;
+  color: #4dabf7;
+}
+
+.player2Score {
+  right: 20px;
+  color: #ff6b6b;
+}
+
+.healthBar {
+  position: absolute;
+  bottom: 10px;
+  width: 100px;
+  height: 10px;
+  background-color: #1B5E20; /* 深绿色血条背景 */
+  border: 1px solid #4CAF50; /* 亮绿色边框 */
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.healthBarFill {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
+
+.player1Health {
+  background-color: #4dabf7;
+}
+
+.player2Health {
+  background-color: #ff6b6b;
+}
